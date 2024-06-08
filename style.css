@@ -97,7 +97,6 @@ h1 {
 .open-icon {
     position: absolute;
     top: 0;
-    visibility: hidden;
 }
 
 /* answers container and content styles */
