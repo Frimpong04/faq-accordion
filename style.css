@@ -99,10 +99,18 @@ h1 {
     top: 0;
 }
 
+.toggle {
+    visibility: hidden;
+}
+
 /* answers container and content styles */
 .answer-container p {
     font-size: 1.4rem;
     color: var(--greyish-purple);
     font-family: regular;
     padding-right: 20%;
+}
+
+.toggle-answer {
+    display: none;;
 }
