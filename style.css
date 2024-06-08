@@ -70,6 +70,13 @@ h1 {
 .questions-container {
     margin-bottom: 2rem;
 }
+
+hr {
+    margin-bottom: 1rem;
+    height: 1px;
+    background-color: var(--light-pink);
+    border: none;
+}
 /* questions and answers styles */
 
 .question-item {
@@ -87,7 +94,7 @@ h1 {
 
 /* icons styles */
 .icons-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
 }
 .icons-container img {
@@ -97,6 +104,7 @@ h1 {
 .open-icon {
     position: absolute;
     top: 0;
+    z-index: 1;
 }
 
 .toggle {
