@@ -90,6 +90,7 @@ hr {
     font-size: 1.6rem;
     color: var(--dark-purple);
     font-family: semibold;
+    margin-bottom: 1rem;
 }
 
 /* icons styles */
@@ -112,6 +113,10 @@ hr {
 }
 
 /* answers container and content styles */
+.answer-container {
+    display: none;
+}
+
 .answer-container p {
     font-size: 1.4rem;
     color: var(--greyish-purple);
@@ -120,5 +125,28 @@ hr {
 }
 
 .toggle-answer {
-    display: none;;
+    display: block;
+}
+
+/* mobile styles */
+@media  screen and (max-width: 375px) {
+   body {
+    height: auto;
+   }
+
+   .main-container {
+    width: 90%;
+    margin-top: 40%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+   }
+
+   .banner-container {
+    background-image: url("./assets/images/background-pattern-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+   }
 }
